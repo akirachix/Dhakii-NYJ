@@ -4,7 +4,7 @@ const VideoSection = () => {
     return (
         <div >
           <h1 className="heading">Explore Our Diverse Video Collection</h1>
-          <p className='text'>Crafted with unparalleled skill and vision, this video stands as a testament to the power of video storytelling. Delve into a captivating exploration of Spotify that transcends time and trends, offering a timeless perspective that will resonate with viewers for years to come. </p>
+          <p className='text'>Crafted with unparalleled skill and vision, this video stands as a testament to the power of video storytelling. Delve in a captivating exploration of Spotify that transcends time and trends, offering a timeless perspective that will resonate with viewers for years to come. </p>
             <div className="videos">
             <div className='video1'>
                 <h3 className='title'>Tools used to devevelop Spotify</h3>
