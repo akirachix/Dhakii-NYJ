@@ -27,8 +27,8 @@ const Podcast = () => {
             <div className="joinText">
               Join the comunity
               <FaPlay />
-              <button className="episodes">Episodes</button>
             </div>
+            <button className="episodes">Episodes</button>
           </div>
           <img src={mic} alt="Mic" className="mic" />
         </div>

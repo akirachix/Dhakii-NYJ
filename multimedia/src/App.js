@@ -1,11 +1,12 @@
-
-import './App.css';
-import Podcast from "./Podcast"
+import "./App.css";
+import Podcast from "./Podcast";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-    <Podcast/>
+      <Navbar />
+      <Podcast />
     </div>
   );
 }
