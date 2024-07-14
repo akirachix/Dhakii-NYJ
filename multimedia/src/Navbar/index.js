@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
       
         <li onClick={() => setNavbar("home")} className={navbartext === "home" ? 'active' : ''}>
-          Home {navbartext === "home" && <hr />}
+          PodCast {navbartext === "home" && <hr />}
         </li>
         <li onClick={() => setNavbar("blog")} className={navbartext === "about" ? 'active' : ''}>
           Blogs{navbartext === "blog" && <hr />}

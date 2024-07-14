@@ -9,7 +9,6 @@ body {
 .page-intro {
   font-family: "Aclonica", sans-serif;
   text-align: center;
-  /* margin-top: 4%; */
 }
 .dot-top {
   background-color: #17736a;
@@ -43,7 +42,7 @@ body {
 }
 .release-date {
   background-color: #f24c27;
-  height: 428px;
+  height: 505px;
   position: relative;
   padding: 8px;
   display: flex;
@@ -51,7 +50,9 @@ body {
 .release {
   opacity: 45%;
   margin-left: 13%;
-  width: 632px;
+  width: 692px;
+  object-fit: contain;
+  padding: 8px;
 }
 .joinText {
   font-family: "Aclonica", sans-serif;
@@ -64,9 +65,10 @@ body {
 }
 
 .mic {
-  margin-left: 20%;
-  width: 300px;
-  height: 300px;
+  margin-left: 12.7%;
+  width: 910px;
+  height: 450px;
+  object-fit: cover;
 }
 .container {
   margin-left: 18%;
@@ -79,13 +81,206 @@ button {
   border-radius: 10px;
   color: #f24c27;
   font-size: 32px;
-  margin-left: -50%;
-  margin-bottom: -22%;
-  margin-top: -5%;
+  margin-left: 13%;
+  margin-top: 8%;
   position: relative;
 }
 
-@media screen and (min-width: 280px) and (max-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  .page-intro {
+    font-size: medium;
+  }
+  .dot-top {
+    width: 30px;
+    height: 30px;
+    margin-left: 64%;
+  }
+  .top-name {
+    font-family: "Aclonica", sans-serif;
+    font-size: 38px;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+  .m-box {
+    width: 90px;
+  }
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
+  }
+  .release-date {
+    display: flex;
+    height: 629px;
+    width: 359px;
+    flex-direction: column;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: -15%;
+    width: 322px;
+    height: 330px;
+  }
+  .joinText {
+    font-size: 18px;
+    position: absolute;
+    margin-top: -42%;
+    margin-left: 15%;
+  }
+  .mic {
+    padding: 3px;
+    width: 330px;
+    height: 230px;
+    margin-left: 5%;
+    object-fit: contain;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 77px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 412px) {
+  .page-intro {
+    font-size: medium;
+  }
+  .dot-top {
+    width: 30px;
+    height: 30px;
+    margin-left: 64%;
+  }
+  .top-name {
+    font-family: "Aclonica", sans-serif;
+    font-size: 38px;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .m-box {
+    width: 90px;
+  }
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
+  }
+  .release-date {
+    display: flex;
+    height: 684px;
+    width: 398px;
+    flex-direction: column;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: -9%;
+    width: 352px;
+  }
+  .joinText {
+    font-size: 28px;
+    position: absolute;
+    margin-top: -47%;
+    margin-left: 19%;
+  }
+  .mic {
+    width: 340px;
+    height: 360px;
+    margin-left: -1%;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 85px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 580px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .page-intro {
+    font-size: medium;
+  }
+  .dot-top {
+    width: 30px;
+    height: 30px;
+    margin-left: 64%;
+  }
+  .top-name {
+    font-family: "Aclonica", sans-serif;
+    font-size: 38px;
+    color: #17736a;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .m-box {
+    width: 90px;
+  }
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
+  }
+  .release-date {
+    display: flex;
+    height: 443px;
+    width: 524px;
+    flex-direction: column;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: 2%;
+    width: 352px;
+  }
+  .joinText {
+    font-size: 18px;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 22%;
+  }
+  .mic {
+    padding: 3px;
+    width: 282px;
+    height: 250px;
+    margin-left: 18%;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 85px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: -50%;
+    margin-top: 27%;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 680px) {
   .page-intro {
     font-size: medium;
   }
@@ -147,7 +342,317 @@ button {
     margin-left: -50%;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 680px) {
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  .page-intro {
+    font-size: 30px;
+  }
+  .dot-top {
+    width: 50px;
+    height: 50px;
+    margin-left: 77%;
+  }
+  .top-name {
+    font-size: 58px;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .m-box {
+    width: 110px;
+  }
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 50px;
+    height: 50px;
+  }
+  .release-date {
+    display: flex;
+    height: 763px;
+    width: 804px;
+    flex-direction: column;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: -9%;
+    width: 592px;
+  }
+  .joinText {
+    font-size: 42px;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 19%;
+  }
+  .mic {
+    width: 490px;
+    height: 370px;
+    margin-left: 12%;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 185px;
+    height: 40px;
+    font-size: 28px;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 781px) and (max-width: 880px) {
+  .page-intro {
+    font-size: 30px;
+  }
+  .dot-top {
+    width: 50px;
+    height: 50px;
+    margin-left: 77%;
+  }
+  .top-name {
+    font-size: 78px;
+    margin-top: -2%;
+    margin-left: -0%;
+  }
+  .podcast-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .m-box {
+    width: 170px;
+  }
+  .middle-section {
+    display: flex;
+    margin-left: -19%;
+  }
+  .dot {
+    width: 50px;
+    height: 50px;
+  }
+  .release-date {
+    display: flex;
+    height: 763px;
+    width: 800px;
+    flex-direction: column;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: -9%;
+    width: 592px;
+  }
+  .joinText {
+    font-size: 62px;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 19%;
+  }
+  .mic {
+    width: 490px;
+    height: 370px;
+    margin-left: 12%;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 185px;
+    height: 40px;
+    font-size: 28px;
+    margin-left: 10%;
+    margin-bottom: -15%;
+  }
+}
+@media screen and (min-width: 881px) and (max-width: 980px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-intro {
+    font-size: 30px;
+  }
+  .dot-top {
+    width: 50px;
+    height: 50px;
+    margin-left: 77%;
+  }
+  .top-name {
+    font-size: 78px;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .m-box {
+    width: 170px;
+  }
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 50px;
+    height: 50px;
+  }
+  .release-date {
+    display: flex;
+    height: 875px;
+    width: 894px;
+    flex-direction: column;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: -2%;
+    width: 652px;
+  }
+  .joinText {
+    font-size: 62px;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 19%;
+  }
+  .mic {
+    width: 490px;
+    height: 490px;
+    margin-left: 12%;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 185px;
+    height: 40px;
+    font-size: 28px;
+    margin-left: 10%;
+    margin-bottom: -15%;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1024px) {
+  .page-intro {
+    text-align: center;
+  }
+  .dot-top {
+    width: 40px;
+    height: 40px;
+  }
+  .top-name {
+    font-size: 48px;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    margin-left: 30%;
+  }
+
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 40px;
+    height: 40px;
+  }
+  .release-date {
+    height: 286px;
+    width: 943px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: 13%;
+    width: 332px;
+  }
+  .joinText {
+    font-size: 28px;
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 13%;
+  }
+  .m-box {
+    width: 130px;
+  }
+  .mic {
+    margin-left: 20%;
+    width: 210px;
+    height: 250px;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: -50%;
+    margin-bottom: -20%;
+    margin-top: -9%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1290px) {
+  .page-intro {
+    text-align: center;
+  }
+  .dot-top {
+    width: 40px;
+    height: 40px;
+  }
+  .top-name {
+    font-size: 48px;
+    margin-top: -2%;
+  }
+  .podcast-name {
+    margin-left: 30%;
+  }
+
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    width: 40px;
+    height: 40px;
+  }
+  .release-date {
+    height: 449px;
+    width: 1184px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+  }
+  .release {
+    margin-left: 13%;
+    width: 482px;
+  }
+  .joinText {
+    font-size: 28px;
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 13%;
+  }
+  .m-box {
+    width: 130px;
+  }
+  .mic {
+    margin-left: 2%;
+    width: 410px;
+    height: 350px;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: -50%;
+    margin-bottom: -20%;
+    margin-top: -9%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 380px) {
   .page-intro {
     font-size: medium;
   }
@@ -159,13 +664,12 @@ button {
   .top-name {
     font-family: "Aclonica", sans-serif;
     font-size: 38px;
-    color: #17736a;
     margin-top: -2%;
   }
   .podcast-name {
     display: flex;
-    flex-direction: column;
-    margin-left: 30%;
+    margin-left: 20%;
+    margin-top: 3%;
   }
   .m-box {
     width: 90px;
@@ -179,355 +683,105 @@ button {
   }
   .release-date {
     display: flex;
-    height: 428px;
+    height: 528px;
+    width: 359px;
     flex-direction: column;
   }
   .release {
     opacity: 45%;
-    margin-left: -9%;
-    width: 282px;
+    margin-left: -15%;
+    width: 302px;
+    height: 235px;
   }
   .joinText {
     font-size: 18px;
     position: absolute;
-    margin-top: -32%;
-    margin-left: 22%;
+    margin-top: -42%;
+    margin-left: 15%;
   }
   .mic {
     padding: 3px;
-    width: 282px;
-    height: 250px;
-    margin-left: -1%;
+    width: 230px;
+    height: 230px;
+    margin-left: 5%;
+    object-fit: contain;
   }
   .container {
     margin-left: 18%;
   }
   button {
-    width: 85px;
+    width: 77px;
     height: 40px;
-    font-size: 18px;
-    margin-left: -50%;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-bottom: 4%;
   }
 }
-@media screen and (min-width: 681px) and (max-width: 880px) {
+@media screen and (min-width: 381px) and (max-width: 414px) {
   .page-intro {
-    font-family: "Aclonica", sans-serif;
-    text-align: center;
-    /* margin-top: 4%; */
+    font-size: medium;
   }
   .dot-top {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 84%;
+    width: 30px;
+    height: 30px;
+    margin-left: 64%;
   }
   .top-name {
     font-family: "Aclonica", sans-serif;
-    font-size: 68px;
-    color: #17736a;
+    font-size: 52px;
     margin-top: -2%;
   }
   .podcast-name {
     display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-  }
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 
+
+  }
+  .m-box {
+    width: 90px;
+  }
   .middle-section {
     display: flex;
   }
   .dot {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 27%;
-    margin-bottom: 0.8%;
+    width: 30px;
+    height: 30px;
   }
   .release-date {
-    background-color: #f24c27;
-    height: 428px;
-    position: relative;
-    padding: 8px;
     display: flex;
+    height: 623px;
+    width: 398px;
+    flex-direction: column;
   }
   .release {
     opacity: 45%;
-    margin-left: 13%;
-    width: 632px;
+    margin-left: -21%;
+    width: 362px;
+    height: 365px;
   }
   .joinText {
-    font-family: "Aclonica", sans-serif;
-    width: 20%;
-    font-size: 48px;
+    font-size: 25px;
     position: absolute;
-    color: white;
-    margin-top: -15%;
-    margin-left: 13%;
+    margin-top: -64%;
+    margin-left: 15%;
   }
-
   .mic {
-    margin-left: 20%;
-    width: 300px;
-    height: 300px;
+    padding: 3px;
+    width: 400px;
+    height: 240px;
+    margin-left: -5%;
+    object-fit: contain;
   }
   .container {
     margin-left: 18%;
   }
   button {
-    background-color: #fff9f8;
-    width: 160px;
+    width: 77px;
     height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #f24c27;
-    font-size: 32px;
-    margin-left: -50%;
-    margin-bottom: -22%;
-    margin-top: -5%;
-    position: relative;
-  }
-}
-@media screen and (min-width: 881px) and (max-width: 1080px) {
-  .page-intro {
-    font-family: "Aclonica", sans-serif;
-    text-align: center;
-    /* margin-top: 4%; */
-  }
-  .dot-top {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 84%;
-  }
-  .top-name {
-    font-family: "Aclonica", sans-serif;
-    font-size: 68px;
-    color: #17736a;
-    margin-top: -2%;
-  }
-  .podcast-name {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-  }
-
-  .middle-section {
-    display: flex;
-  }
-  .dot {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 27%;
-    margin-bottom: 0.8%;
-  }
-  .release-date {
-    background-color: #f24c27;
-    height: 428px;
-    position: relative;
-    padding: 8px;
-    display: flex;
-  }
-  .release {
-    opacity: 45%;
-    margin-left: 13%;
-    width: 632px;
-  }
-  .joinText {
-    font-family: "Aclonica", sans-serif;
-    width: 20%;
-    font-size: 48px;
-    position: absolute;
-    color: white;
-    margin-top: -15%;
-    margin-left: 13%;
-  }
-
-  .mic {
-    margin-left: 20%;
-    width: 300px;
-    height: 300px;
-  }
-  .container {
-    margin-left: 18%;
-  }
-  button {
-    background-color: #fff9f8;
-    width: 160px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #f24c27;
-    font-size: 32px;
-    margin-left: -50%;
-    margin-bottom: -22%;
-    margin-top: -5%;
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 1081px) and (max-width: 1280px) {
-  .page-intro {
-    font-family: "Aclonica", sans-serif;
-    text-align: center;
-    /* margin-top: 4%; */
-  }
-  .dot-top {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 84%;
-  }
-  .top-name {
-    font-family: "Aclonica", sans-serif;
-    font-size: 68px;
-    color: #17736a;
-    margin-top: -2%;
-  }
-  .podcast-name {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-  }
-
-  .middle-section {
-    display: flex;
-  }
-  .dot {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 27%;
-    margin-bottom: 0.8%;
-  }
-  .release-date {
-    background-color: #f24c27;
-    height: 428px;
-    position: relative;
-    padding: 8px;
-    display: flex;
-  }
-  .release {
-    opacity: 45%;
-    margin-left: 13%;
-    width: 632px;
-  }
-  .joinText {
-    font-family: "Aclonica", sans-serif;
-    width: 20%;
-    font-size: 48px;
-    position: absolute;
-    color: white;
-    margin-top: -15%;
-    margin-left: 13%;
-  }
-
-  .mic {
-    margin-left: 20%;
-    width: 300px;
-    height: 300px;
-  }
-  .container {
-    margin-left: 18%;
-  }
-  button {
-    background-color: #fff9f8;
-    width: 160px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #f24c27;
-    font-size: 32px;
-    margin-left: -50%;
-    margin-bottom: -22%;
-    margin-top: -5%;
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 1281px) and (max-width: 1480px) {
-  .page-intro {
-    font-family: "Aclonica", sans-serif;
-    text-align: center;
-    /* margin-top: 4%; */
-  }
-  .dot-top {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 84%;
-  }
-  .top-name {
-    font-family: "Aclonica", sans-serif;
-    font-size: 68px;
-    color: #17736a;
-    margin-top: -2%;
-  }
-  .podcast-name {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-  }
-
-  .middle-section {
-    display: flex;
-  }
-  .dot {
-    background-color: #17736a;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 27%;
-    margin-bottom: 0.8%;
-  }
-  .release-date {
-    background-color: #f24c27;
-    height: 428px;
-    position: relative;
-    padding: 8px;
-    display: flex;
-  }
-  .release {
-    opacity: 45%;
-    margin-left: 13%;
-    width: 632px;
-  }
-  .joinText {
-    font-family: "Aclonica", sans-serif;
-    width: 20%;
-    font-size: 48px;
-    position: absolute;
-    color: white;
-    margin-top: -15%;
-    margin-left: 13%;
-  }
-
-  .mic {
-    margin-left: 20%;
-    width: 300px;
-    height: 300px;
-  }
-  .container {
-    margin-left: 18%;
-  }
-  button {
-    background-color: #fff9f8;
-    width: 160px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #f24c27;
-    font-size: 32px;
-    margin-left: -50%;
-    margin-bottom: -22%;
-    margin-top: -5%;
-    position: relative;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-bottom: 4%;
   }
 }

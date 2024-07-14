@@ -1,11 +1,11 @@
 import "./App.css";
 import Podcast from "./Podcast";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Podcast />
     </div>
   );
