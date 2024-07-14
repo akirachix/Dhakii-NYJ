@@ -32,20 +32,24 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faTimes} />
           </div>
         )}
-        <li onClick={() => setNavbar("home")} className={navbartext === "home" ? 'active' : ''}>
-          Home {navbartext === "home" && <hr />}
+         <li onClick={() => setNavbar("podcast")} className={navbartext === "contact" ? 'active' : ''}>
+          Home {navbartext === "podcast" && <hr />}
         </li>
         <li onClick={() => setNavbar("video")} className={navbartext === "about" ? 'active' : ''}>
           Videos {navbartext === "video" && <hr />}
         </li>
-        <li onClick={() => setNavbar("podcast")} className={navbartext === "contact" ? 'active' : ''}>
-          Podcasts {navbartext === "podcast" && <hr />}
+      
+        <li onClick={() => setNavbar("home")} className={navbartext === "home" ? 'active' : ''}>
+          Home {navbartext === "home" && <hr />}
         </li>
         <li onClick={() => setNavbar("blog")} className={navbartext === "about" ? 'active' : ''}>
           Blogs{navbartext === "blog" && <hr />}
         </li>
         <li onClick={() => setNavbar("portfolio")} className={navbartext === "contact" ? 'active' : ''}>
           Portfolios {navbartext === "portfolio" && <hr />}
+        </li>
+        <li onClick={() => setNavbar("podcast")} className={navbartext === "contact" ? 'active' : ''}>
+          Contacts {navbartext === "podcast" && <hr />}
         </li>
       </div>
       <button className="icon" onClick={toggleMenu}>
