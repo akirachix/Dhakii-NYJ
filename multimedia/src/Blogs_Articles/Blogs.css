@@ -1,0 +1,641 @@
+.Body{
+    width: 100%;
+    height: 100%;
+}
+.BlogsBody{
+   display: block;
+   gap: 100px;
+}
+.Details{
+    display: flex;
+    gap: 200px;
+}
+.text{
+    color: #17736A;
+    font-size: 40px;
+    text-align: center;
+
+}
+.BornACrime{
+    display: Block;
+
+}
+#Topics{
+   position: relative; 
+   height: 600px;
+   margin-left: 280px;
+   
+}
+.content{
+    position: absolute;
+    margin-top: -520px;
+    margin-left: 355px;
+    font-size: 20px;
+    color: white;
+}
+#studies{
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    font-size: 0px;
+
+}
+.button{
+    width: 170px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    color:#F24C27;
+    font-size: 22px;
+    align-items: center;
+    font-weight: bold;
+    font-family: Aclonica;
+
+}
+
+
+
+@media screen and (min-width:280px) and (max-width:300px) {
+
+
+.Body{
+    width: 100%;
+    height: 100%;
+}
+
+.BlogsBody{
+   display: block;
+   gap: 10px;
+}
+.Details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.text{
+    color: #17736A;
+    font-size: 8px;
+    margin-top: 0px;
+  
+
+}
+.BornACrime{
+    display: Block;
+
+}
+p{
+    font-size: 11px;
+    margin-left: -30px;
+}
+#Topics{
+   position: relative; 
+   height: 270px;
+   margin-left: 15px;
+   width: 240px;
+   
+}
+.content{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 94px;
+    font-size: 10px;
+    color: white;
+}
+#studies{
+    border-radius: 20px;
+    height: 80px;
+    width: 90px;
+    font-size: 0px;
+    margin-top: -30px;
+
+}
+.button{
+    width: 90px;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    color:#F24C27;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+}
+
+@media screen and (min-width:301px) and (max-width:390px) {
+
+    .Body{
+        width: 98%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+       gap: 50px;
+    }
+    .Details{
+        display: block;
+        gap: 20px;
+    }
+    .text{
+        color: #17736A;
+        font-size: 13px;
+        margin-left: 1%;
+    
+    }
+    p{
+        margin-left: -140%;
+        font-size: 15px;
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 290px;
+       margin-left: 40px;
+       width: 80%;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 255px;
+        font-size: 10px;
+        color: white;
+        display: block;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 90px;
+        width: 100px;
+        font-size: 0px;
+        margin-left: -106px;
+        margin-top: 270px;
+    
+    }
+    .button{
+        width: 100px;
+        padding: 2px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 2px;
+        margin-left: -110px;
+        color:#F24C27;
+        font-size: 18px;
+        align-items: center;
+        font-weight: bold;
+    
+    }
+
+}
+
+@media screen and (min-width:391px) and (max-width:480px) {
+
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+       gap: 100px;
+    }
+    .Details{
+        display:block;
+        gap: 200px;
+    }
+    .text{
+        color: #17736A;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 60px;
+        
+    
+    }
+    p{
+        margin-left: -170%;
+        color: white;
+        font-size: 16px;
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 390px;
+       margin-left: 70px;
+       width: 340px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 355px;
+        font-size: 20px;
+        color: white;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 100px;
+        width: 110px;
+        font-size: 0px;
+        margin-left: -160px;
+        margin-top: 170px;
+    
+    }
+    .button{
+        width: 110px;
+        padding: 2px;
+        border-radius: 20px;
+        border: none;
+        margin-top:40px;
+        margin-left: -180px;
+        color:#F24C27;
+        font-size: 20px;
+        align-items: center;
+        font-weight: bold;
+    
+    }
+
+}
+@media screen and (min-width:481px) and (max-width:680px) {
+
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+       gap: 100px;
+    }
+    .Details{
+        display: block;
+        gap: 200px;
+    }
+    .text{
+        color: #17736A;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: -10%;
+        font-size: medium;
+        width: 96%;
+        margin-bottom: 30px;
+
+    }
+    .BornACrime{
+        display: Block;
+        margin-left: -40%;
+        width: 30%;
+    }
+    #Topics{
+       position: relative; 
+       height: 600px;
+       margin-left: 280px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 355px;
+        font-size: 20px;
+        color: white;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        font-size: 0px;
+    
+    }
+    .button{
+        width: 170px;
+        padding: 2px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 5px;
+        color:#F24C27;
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+    
+    }
+
+}
+
+@media screen and (min-width:681px) and (max-width:800px) {
+
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+       gap: 100px;
+    }
+    .Details{
+        display: block;
+        gap: 0px;
+        margin-left: -20%;
+    }
+    .text{
+        color: #17736A;
+        font-size: 20px;
+        
+    
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 450px;
+       margin-left: 280px;
+       width: 500px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 355px;
+        font-size: 20px;
+        color: white;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 180px;
+        width: 180px;
+        font-size: 0px;
+        margin-top: 140px;
+        margin-left: 10%;
+    
+    }
+    p{
+        margin-left: 60px;
+    }
+    .button{
+        width: 100px;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        margin-top: -40px;
+        margin-left: 80px;
+        color:#F24C27;
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+    
+    }
+}
+@media screen and (min-width:801px) and (max-width:900px) {
+
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+       gap: 100px;
+    }
+    .Details{
+        display: block;
+        gap: 200px;
+        margin-left: -10%;
+    }
+    .text{
+        color: #17736A;
+        font-size: 30px;
+        
+    
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 600px;
+       margin-left: 280px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 355px;
+        font-size: 20px;
+        color: white;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        font-size: 0px;
+    
+    }
+    .button{
+        width: 170px;
+        padding: 2px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 5px;
+        color:#F24C27;
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+    
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1020px) {
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+    }
+    .Details{
+        display: flex;
+        margin-left: 30px;
+        width: 100%;
+        gap: 9%;
+    }
+    .text{
+        color: #17736A;
+        font-size: 40px;
+        text-align: center;
+        width: 96%;
+    
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 600px;
+       margin-left: 0px;
+       width: 350px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 30px;
+        font-size: 20px;
+        color: white;
+        width: 300px;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 250px;
+        width: 200px;
+        font-size: 0px;
+        margin-left: 50px;
+    
+    }
+    .button{
+        width: 170px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 10px;
+        color:#F24C27;
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+        font-family: Aclonica;
+    
+    }
+   
+}
+
+@media screen and (min-width:1021px) and (max-width:1250px) {
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+    }
+    .Details{
+        display: flex;
+    }
+    .text{
+        color: #17736A;
+        font-size: 25px;
+        text-align: center;
+    
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 600px;
+       margin-left: 0px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 80px;
+        font-size: 20px;
+        color: white;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        font-size: 0px;
+    
+    }
+    .button{
+        width: 170px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 10px;
+        color:#F24C27;
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+        font-family: Aclonica;
+    
+    }
+    
+}
+
+@media screen and (min-width:1251px) and (max-width:1500px) {
+
+    .Body{
+        width: 100%;
+        height: 100%;
+    }
+    .BlogsBody{
+       display: block;
+    }
+    .Details{
+        display: flex;
+        margin-left: 140px;
+    }
+    .text{
+        color: #17736A;
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    .BornACrime{
+        display: Block;
+    
+    }
+    #Topics{
+       position: relative; 
+       height: 600px;
+       margin-left: 0px;
+       
+    }
+    .content{
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 80px;
+        font-size: 20px;
+        color: white;
+    }
+    #studies{
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        font-size: 0px;
+    
+    }
+    .button{
+        width: 170px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 10px;
+        color:#F24C27;
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+        font-family: Aclonica;
+    
+    }
+}
+
+
+
+
+
